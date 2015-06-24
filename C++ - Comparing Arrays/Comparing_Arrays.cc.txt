@@ -1,0 +1,272 @@
+//Comparing_Arrays.cc
+//Brian Londregan 
+//Section 1 
+//S0646157
+/* This program reads in character data for two different arrays then compares the two for similarites and then appends them together*/
+/* The program works fine...However, it does not print out the first array during the appending part...I think it has something to do with the fact that I used eclipse since I was unsure about rockhopper*/
+
+
+
+
+#include<iostream>
+using namespace std;
+
+
+
+
+//DECLARING FUNCTIONS------------------------------------------------------------------------------  
+//These functions are used in intMain in this order...
+
+int read_Array (char array_1or2[], int length);   
+//User inputs information into an array...
+   
+void print_Array (char array_1or2 [], int length);  
+//Prints the characters of an array...
+  
+bool compare_Array (char array1[], char array2[], int length); 
+//Tests if two arrays are identical...
+   
+void append_Array (char array1 [], char array2[], int array1_Length, int array2_Length); 
+//Takes second array and adds those characters on to the end of the first array...
+
+
+
+
+//DECLARING GLOBAL VARIABLES-----------------------------------------------------------------------
+const int CAPACITY = 50;
+//Both arrays' max capacity...
+
+
+
+
+int main()
+{
+   
+
+
+	//DECLARING LOCAL VARIABLES---------------------------------------------------------------
+	char array1 [CAPACITY];
+   	char array2 [CAPACITY];
+	//The two arrays...
+	int array1_Length;
+	int array2_Length;
+	//The two lengths...
+
+
+
+	cout << "Program by Brian Londregan" << endl;
+	
+	
+	
+	//Inputs the two strings of information by calling the read function...
+	array1_Length = read_Array (array1, CAPACITY);
+	array2_Length = read_Array (array2, CAPACITY);
+	
+
+
+	//Prints the two strings by calling the print function... 
+	//Also prints the two strings' lengths computed from the read function...
+	//ARRAY ONE
+	cout << endl;
+	cout << "You entered for Array1: ";
+	print_Array (array1, array1_Length);    //No need to output...it is a void function...
+	cout << endl; 
+	cout << "Number of characters: " << array1_Length;   
+	//ARRAY TWO
+	cout << endl;
+	cout << "You entered for Array2: ";
+	print_Array (array2, array2_Length);    //No need to output...it is a void function...
+	cout << endl; 
+	cout << "Number of characters: " << array2_Length;
+   
+	
+
+	//Decides if the two strings are identical or not by calling the compare function...
+	//If it returns true...
+	//Does not matter which arrays' length is used...
+	if (compare_Array (array1, array2, array1_Length) == true)    
+	{	
+		cout << endl;
+		cout << "You entered IDENTICAL strings of characters. ";
+	}
+	else
+	{
+		cout << endl;
+		cout << "You entered DIFFERENT strings of characters. ";
+	}  
+
+
+
+	//Prints the two strings together as one by calling the append function...	
+	//No need to output...it is a void function...
+	cout << endl;
+	cout << "The two arrays appended together: ";
+	append_Array (array1, array2, array1_Length, array2_Length);  
+
+	
+
+	return 0;
+
+
+
+}
+
+
+
+
+//DEFINING FUNCTIONS-------------------------------------------------------------------
+int read_Array (char array_1or2 [], int length)
+{
+	
+
+
+	int size = 0;  
+	//Initializes variable to count array's spot...
+	char character;
+	//Each character...
+
+
+
+	//Prompt...
+   	cout << endl;
+	cout << "Input up to 50 characters: ";
+
+
+
+	//Starts the loop...
+	cin.get(character);  
+
+
+
+	//While the user does not hit enter...
+	while (character != '\n')
+   	{
+		//Puts each current character into the current array...
+		array_1or2 [size] = character;  
+		
+		//Increases the current size and inputs another character...		
+		++size;
+		cin.get (character);
+   	}
+   
+
+   
+	return size;
+
+
+
+}
+
+
+
+
+void print_Array (char array_1or2 [], int length)
+{
+	
+
+
+	//Goes through each array's places and prints them...
+	for (int index = 0; index < length; ++index)
+		cout << array_1or2 [index];
+
+
+
+}
+
+
+
+
+bool compare_Array (char array1 [], char array2 [], int length)
+{
+  
+
+
+	bool test = true;
+	//Initializes the variable at true...
+
+
+
+	//Tests to see if it stays true...
+	for (int index = 0; index < length; ++index)
+		//If the characters keep matching then it won't go into this if statement...
+		if (array1 [index] != array2 [index])
+		{
+			test = false;
+			//If one match of characters is different then jump out of this loop...
+			break;
+		}
+
+
+
+	return test;
+
+
+
+}
+
+
+
+
+void append_Array (char array1 [], char array2 [], int array1_Length, int array2_Length)
+{   
+	
+
+
+	//If the arrays together do not exceed the capacity...
+	if (array1_Length + array2_Length < CAPACITY)
+	{
+		cout << endl;
+
+		//Prints first array... 
+		for (int index = 0; index < array1_Length; ++index)
+			cout << array1[ array1_Length ];
+
+		//Prints second array directly after...
+		for (int index2 = 0; index2 < array2_Length; ++index2)
+			cout << array2 [index2];
+	}
+	
+
+
+	//If the arrays together exceed the capacity...
+	else
+		cout << "The two arrays put together exceed the capacity.";
+
+
+
+}
+		
+
+
+
+----------------------------------
+AN EXAMPLE OF THE PROGRAM'S OUTPUT
+----------------------------------
+ 
+Program by Brian Londregan
+
+Input up to 50 characters: Hello 
+
+Input up to 50 characters: Professor
+
+You entered for Array1: Hello 
+Number of characters: 6
+You entered for Array2: Professor
+Number of characters: 9
+You entered DIFFERENT strings of characters. 
+The two arrays appended together: """"""Professor
+
+
+
+Program by Brian Londregan
+
+Input up to 50 characters: ..,.
+
+Input up to 50 characters: ..,.
+
+You entered for Array1: ..,.
+Number of characters: 4
+You entered for Array2: ..,.
+Number of characters: 4
+You entered IDENTICAL strings of characters. 
+The two arrays appended together: ..,.

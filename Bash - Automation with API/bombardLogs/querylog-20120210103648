@@ -1,0 +1,2143 @@
+Fri Feb 10 10:36:48 EST 2012
+
+
+query forensic using caroltest150@INTEGRATION.COM
+query information using caroltest151@INTEGRATION.COM
+query (suspected OR distributing OR sensitive) using caroltest152@INTEGRATION.COM
+query image using caroltest153@INTEGRATION.COM
+query (science OR relates) using caroltest154@INTEGRATION.COM
+query increasing using caroltest155@INTEGRATION.COM
+query (storage capacities) using caroltest156@INTEGRATION.COM
+query (seized OR computer) using caroltest157@INTEGRATION.COM
+query custody using caroltest158@INTEGRATION.COM
+query recorded using caroltest159@INTEGRATION.COM
+query (John Doe) using caroltest160@INTEGRATION.COM
+query ctime:04/12/2001..01/01/2011 using caroltest161@INTEGRATION.COM
+query ctime:01/10/2009..01/01/2011 using caroltest162@INTEGRATION.COM
+query mtime:01/01/2010..12/01/2011 using caroltest163@INTEGRATION.COM
+query mtime:01/02/2010..12/01/2011 using caroltest164@INTEGRATION.COM
+query ft:txt using caroltest165@INTEGRATION.COM
+query ft:doc using caroltest166@INTEGRATION.COM
+query (hello OR world) and ft:txt using caroltest167@INTEGRATION.COM
+query (cat OR dog) and ft:doc using caroltest168@INTEGRATION.COM
+query ft:ppt,doc,xls using caroltest169@INTEGRATION.COM
+query ft:doc AND ctime:04/12/2001..01/01/2011 using caroltest170@INTEGRATION.COM
+query ft:txt AND mtime:01/01/2010..12/01/2011 using caroltest171@INTEGRATION.COM
+query ft:msg AND (hello OR world) using caroltest172@INTEGRATION.COM
+query probability using caroltest173@INTEGRATION.COM
+query (soft OR copy) using caroltest174@INTEGRATION.COM
+query (still exists) using caroltest175@INTEGRATION.COM
+query computer AND ft:msg using caroltest176@INTEGRATION.COM
+query (hello world) using caroltest177@INTEGRATION.COM
+query NOT (hello OR computer) using caroltest178@INTEGRATION.COM
+query ft:msg using caroltest179@INTEGRATION.COM
+query NOT (computer OR performance) AND ft:doc using caroltest180@INTEGRATION.COM
+query tape using caroltest181@INTEGRATION.COM
+query (video tape) using caroltest182@INTEGRATION.COM
+query ft:xls AND (money) using caroltest183@INTEGRATION.COM
+query mtime:01/02/2000..12/01/2010 using caroltest184@INTEGRATION.COM
+query world using caroltest185@INTEGRATION.COM
+
+
+Executed 36 Queries... Check the qserv log for even more details
+
+
+No matching command
+  Found 0 results (0 - 0) for your search on "ctime:01/10/2009..01/01/2011"
+  Page 1:
+
+  query id 153
+  elapsed time 0.191220 seconds
+No matching command
+  Found 3969 results (510 - 3969) for your search on "ft:ppt,doc,xls"
+  Page 1:
+     1. file: bvsg-bvsg.com_downloads_powerpoint_aiim20020307.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: PowerPoint Presentation
+        author: Bob Puccinelli
+        no productions
+        rank: 0 - type: PPT - size: 817k - mtime: Fri Apr  1 17:45:06 2005
+     2. file: buyya-www.buyya.com_cluster_LinuxClusters.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Cluster Computing
+        author: Rajkumar
+        no productions
+        rank: 0 - type: PPT - size: 2m - mtime: Tue Feb 22 11:50:18 2005
+     3. file: business.auburn-www.business.auburn.edu_~oswald_MSprojects.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Project Management
+        author:  
+        no productions
+        rank: 0 - type: PPT - size: 108k - mtime: Mon Apr  4 11:43:04 2005
+     4. file: business.att-www.business.att.com_content_vpnsb.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: VPN SIlver Bullets
+        author: Debbie Thompson/Ed McCarthy
+        no productions
+        rank: 0 - type: PPT - size: 22k - mtime: Mon Apr  4 11:43:04 2005
+     5. file: bus.umich-webuser.bus.umich.edu_yaffecenter_team1.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Web Competition
+        author: Dalip Tyagi
+        no productions
+        rank: 0 - type: PPT - size: 2m - mtime: Thu Mar 10 12:48:38 2005
+     6. file: bu-metcs.bu.edu_~kanabar_pm_IntroHult.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: What Is a Work Breakdown Structure? 
+        author: Vijay Kanabar
+        no productions
+        rank: 0 - type: PPT - size: 2m - mtime: Tue Feb 22 11:50:18 2005
+     7. file: btinternet-www.btinternet.com_~mehdi.khorasani_Parlay.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Parlay
+        author: Mehdi Khorasani
+        no productions
+        rank: 0 - type: PPT - size: 1m - mtime: Thu Mar 10 16:40:34 2005
+     8. file: bswd-www.bswd.com_SAN2001_103_Merhar.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Building Secure Storage Networks
+        author: Milan Merhar
+        no productions
+        rank: 0 - type: PPT - size: 458k - mtime: Mon Apr  4 11:00:48 2005
+     9. file: bryanduggan-www.bryanduggan.com_papers_Project%20Proposal.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Project proposal
+        author: Bryan Duggan
+        no productions
+        rank: 0 - type: PPT - size: 303k - mtime: Tue Feb 22 11:50:18 2005
+    10. file: bryanduggan-www.bryanduggan.com_college_Computer%20Networks.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Digital Logic
+        author: Bryan Duggan
+        no productions
+        rank: 0 - type: PPT - size: 1m - mtime: Thu Mar 10 14:50:58 2005
+
+  query id 150
+  elapsed time 0.201217 seconds
+No matching command
+  Found 1904 results (62 - 1904) for your search on "ctime:04/12/2001..01/01/2011"
+  Page 1:
+     1. file: 2005 08 08 11 57 23-london food-Rev Simon Rumble-Re london food exotic meats.msg
+        path: ex07int.integration.com/Global/TomsData/Duplicate Content/
+        title: Re: [london.food] exotic meats
+        author: Rev Simon Rumble <simon@rumble.net>
+        no productions
+        rank: 0 - type: MSG - size: 19k - mtime: Wed Jun 14 16:08:26 2006
+     2. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+     3. file: WK1.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: WK1
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 45k - mtime: Tue Mar 11 17:09:58 2008
+     4. file: Untitled.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 25k - mtime: Tue Mar 11 17:10:04 2008
+     5. file: Untitled (1).msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 25k - mtime: Tue Mar 11 17:10:04 2008
+     6. file: TGIF-hm files attached here.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: TGIF-hm files attached here
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 175k - mtime: Tue Mar 11 17:10:14 2008
+     7. file: Rich text.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Rich text
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 433k - mtime: Tue Mar 11 17:09:59 2008
+     8. file: platte.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: platte
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 198k - mtime: Tue Mar 11 17:09:58 2008
+     9. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+    10. file: Paypal-Plain text.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Paypal-Plain text
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 225k - mtime: Tue Mar 11 17:09:59 2008
+
+No matching command
+  Found 125 results (52 - 125) for your search on "ft:msg"
+  Page 1:
+     1. file: 2005 08 08 11 57 23-london food-Rev Simon Rumble-Re london food exotic meats.msg
+        path: ex07int.integration.com/Global/TomsData/Duplicate Content/
+        title: Re: [london.food] exotic meats
+        author: Rev Simon Rumble <simon@rumble.net>
+        no productions
+        rank: 0 - type: MSG - size: 19k - mtime: Wed Jun 14 16:08:26 2006
+     2. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+     3. file: WK1.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: WK1
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 45k - mtime: Tue Mar 11 17:09:58 2008
+     4. file: Untitled.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 25k - mtime: Tue Mar 11 17:10:04 2008
+     5. file: Untitled (1).msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 25k - mtime: Tue Mar 11 17:10:04 2008
+     6. file: TGIF-hm files attached here.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: TGIF-hm files attached here
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 175k - mtime: Tue Mar 11 17:10:14 2008
+     7. file: Rich text.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Rich text
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 433k - mtime: Tue Mar 11 17:09:59 2008
+     8. file: platte.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: platte
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 198k - mtime: Tue Mar 11 17:09:58 2008
+     9. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+    10. file: Paypal-Plain text.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Paypal-Plain text
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 0 - type: MSG - size: 225k - mtime: Tue Mar 11 17:09:59 2008
+
+  query id 148
+  elapsed time 0.212541 seconds
+  query id 164
+  elapsed time 0.172450 seconds
+No matching command
+  Found 422 results (19 - 422) for your search on "ft:doc"
+  Page 1:
+     1. file: eage-www.eage.org_files_Exhcon2003.doc
+        path: ex07int.integration.com/Global/TomsData/Duplicate Content/
+        title: EAGE TECHNICAL EXHIBITION 7 - 11 JUNE 1999, HELSINKI, FINLAND
+        author: Daniëlle Lensink
+        no productions
+        rank: 0 - type: DOC - size: 38k - mtime: Fri Apr  1 16:23:28 2005
+     2. file: Ural_rpm252-16.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 1m - mtime: Fri Jul 18 10:34:54 2008
+     3. file: Ural_NBU20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 154k - mtime: Wed Jul 16 08:54:32 2008
+     4. file: Ural_20715_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 232k - mtime: Tue Jul 15 08:53:58 2008
+     5. file: Tivoli_Hudson_25217.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 205k - mtime: Thu Jul 24 08:27:06 2008
+     6. file: Mystic_20715.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 192k - mtime: Tue Jul 15 08:53:22 2008
+     7. file: Jurua_IO_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 178k - mtime: Tue Jul 15 08:55:18 2008
+     8. file: install.docx
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: administrator
+        no productions
+        rank: 0 - type: DOC - size: 239k - mtime: Mon Jul 20 15:05:14 2009
+     9. file: Hudson_legato20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 158k - mtime: Wed Jul 16 08:57:22 2008
+    10. file: Hudson_arcserve_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 185k - mtime: Tue Jul 15 08:54:30 2008
+
+  query id 155
+  elapsed time 0.202090 seconds
+No matching command
+  Found 305 results (305 - 305) for your search on "ft:doc AND ctime:04/12/2001..01/01/2011"
+  Page 1:
+     1. subject: KC’s compensation plan
+        folder: Top of Personal Folders\2002-2\000000000005e8c0
+        sender: Tom Brooksher
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: KC 6-02 comp plan draft.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 20k - mtime: Wed Jun 19 15:15:45 2002
+     2. subject: Attachment I
+        folder: Top of Personal Folders\2002-2\000000000005e950
+        sender: Garnerj
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Exhibit A.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 19k - mtime: Tue Jun 18 11:05:36 2002
+     3. subject: To:
+        folder: Top of Personal Folders\2002-2\000000000005e828
+        sender: Rob Martin
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: NAG Questions.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 70k - mtime: Thu Jun 20 12:52:40 2002
+     4. subject: #835702 v1 - mbr GE/SV   June Waiver Letter
+        folder: Top of Personal Folders\2002-2\000000000005e818
+        sender: James Marvin
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: mbr GE_SV   June Waiver Letter.DOC
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 27k - mtime: Thu Jun 20 13:53:05 2002
+     5. subject: Annual Meeting Agenda
+        folder: Top of Personal Folders\2002-2\000000000005e7f0
+        sender: Brenda Goscha
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Annual Meeting Agenda.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 25k - mtime: Thu Jun 20 15:40:07 2002
+     6. subject: [Date]
+        folder: Top of Personal Folders\2002-2\000000000005e950
+        sender: Zakrzewski, Barbara J.
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Clean Issuance6-18-02.DOC
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 26k - mtime: Tue Jun 18 11:05:36 2002
+     7. subject: THE KRG CAPITAL PHILOSOPHY STATEMENT
+        folder: Top of Personal Folders\2002-2\000000000005e7a0
+        sender: Bruce Rogers
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Expectations Pact 6-20-02.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 113k - mtime: Thu Jun 20 16:34:46 2002
+     8. subject: Curt I. Futch
+        folder: Top of Personal Folders\2002-2\000000000005e920
+        sender: Curt I. Futch
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Resume 1.22.02.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 118k - mtime: Mon May 20 18:28:07 2002
+     9. subject: Management Review Form
+        folder: Top of Personal Folders\2002-2\000000000005e784
+        sender: jlanier
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Management Review Form Revised 6-19-02.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 60k - mtime: Wed Jun 19 23:26:41 2002
+    10. subject: Management Review Form
+        folder: Top of Personal Folders\2002-2\000000000005e784
+        sender: jlanier
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Equity Sponsor Review Form Revised 6-19-02.doc
+        key: 
+        no productions
+        rank: 0 - type: DOC - size: 53k - mtime: Wed Jun 19 23:23:55 2002
+
+  query id 158
+  elapsed time 0.239112 seconds
+No matching command
+  Found 13585 results (94 - 13585) for your search on "ft:txt"
+  Page 1:
+     1. file: www_vic_com_nepal_images_luklaplane.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 1k - mtime: Thu Mar 10 12:48:38 2005
+     2. file: www_nama_nig_com_.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 1k - mtime: Tue Apr  5 11:30:48 2005
+     3. file: www_maryjones_us_jce_cormac1.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 2k - mtime: Fri Apr  1 16:24:18 2005
+     4. file: www_aero_com_publications_helicoptorial_9608_9608.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 4k - mtime: Mon Apr  4 14:43:20 2005
+     5. file: www3_state_id_us_oasis_107.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 9k - mtime: Tue Nov  2 10:44:46 2004
+     6. file: ciurpita_tripod_com_rc_rcsd_low_peed_tability_low_peed_tability.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 13k - mtime: Tue Nov  2 13:35:16 2004
+     7. file: www_vic_com_nepal_images_luklaplane.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 1k - mtime: Thu Mar 10 12:48:38 2005
+     8. file: www_nama_nig_com_.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 1k - mtime: Tue Apr  5 11:30:48 2005
+     9. file: www_maryjones_us_jce_cormac1.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 2k - mtime: Fri Apr  1 16:24:18 2005
+    10. file: www_aero_com_publications_helicoptorial_9608_9608.htm
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        no productions
+        rank: 0 - type: TXT - size: 4k - mtime: Mon Apr  4 14:43:20 2005
+
+  query id 149
+  elapsed time 0.327811 seconds
+No matching command
+  Found 836 results (11 - 1331) for your search on "image"
+  Page 1:
+     1. file: www_age_uiuc_edu_bee_piv_ivpaper1.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Measurement of Aerosol Concentration and Transportation in Ventilated
+Airspaces
+        no productions
+        rank: 167 - type: HTM - size: 27k - mtime: Tue Apr  5 11:30:48 2005
+     2. file: www_age_uiuc_edu_bee_piv_ivpaper1.htm
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        title: Measurement of Aerosol Concentration and Transportation in Ventilated
+Airspaces
+        no productions
+        rank: 167 - type: HTM - size: 27k - mtime: Tue Apr  5 11:30:48 2005
+     3. file: www_search_revolutionaryplayers_org_uk_content_files_99_97_333.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: John Baskerville and Benjamin Franklin: A Trans-Atlantic Friendship
+        author: Revolutionary Players Project
+        no productions
+        rank: 138 - type: RTF - size: 95k - mtime: Tue Apr  5 11:30:48 2005
+     4. file: www_search_revolutionaryplayers_org_uk_content_files_81_76_355.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Joseph Wright of Derby: Art, the Enlightenment and Industrial Revolution
+        author: Revolutionary Players Project
+        no productions
+        rank: 138 - type: RTF - size: 65k - mtime: Thu Nov  4 23:48:14 2004
+     5. file: www_search_revolutionaryplayers_org_uk_content_files_99_97_333.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: John Baskerville and Benjamin Franklin: A Trans-Atlantic Friendship
+        author: Revolutionary Players Project
+        no productions
+        rank: 138 - type: RTF - size: 95k - mtime: Tue Apr  5 11:30:48 2005
+     6. file: www_search_revolutionaryplayers_org_uk_content_files_81_76_355.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Joseph Wright of Derby: Art, the Enlightenment and Industrial Revolution
+        author: Revolutionary Players Project
+        no productions
+        rank: 138 - type: RTF - size: 65k - mtime: Thu Nov  4 23:48:14 2004
+     7. file: Forensic Images - Questions.docx
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 127 - type: DOC - size: 12k - mtime: Fri Aug 19 16:05:58 2011
+     8. file: www_fotosearch_com_201_as108_.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Stock Video of as108, fields, airplanes, airstrips, flights, flying - Search Motion Footage Clips
+        no productions
+        rank: 124 - type: HTM - size: 11k - mtime: Thu Mar 10 16:40:34 2005
+     9. file: www_fotosearch_com_201_as106_.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Stock Videos of as106, landings, airports, airstrips, flights, flying - Search Video Footage Clips
+        no productions
+        rank: 124 - type: HTM - size: 10k - mtime: Tue Nov  2 10:32:34 2004
+    10. file: www_fotosearch_com_201_as108_.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        title: Stock Video of as108, fields, airplanes, airstrips, flights, flying - Search Motion Footage Clips
+        no productions
+        rank: 124 - type: HTM - size: 11k - mtime: Thu Mar 10 16:40:34 2005
+
+  query id 140
+  elapsed time 0.620364 seconds
+No matching command
+  Found 93 results (17 - 110) for your search on "forensic"
+  Page 1:
+     1. file: Forensic Images - Questions.docx
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 104 - type: DOC - size: 12k - mtime: Fri Aug 19 16:05:58 2011
+     2. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 104 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     3. file: Forensic Image - PRD.docx
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 104 - type: DOC - size: 31k - mtime: Wed Sep 14 11:53:17 2011
+     4. file: AD1 Forensic Imaging Test Schedule.msg
+        path: ex07int.integration.com/Limited/Corpus/msg/
+        title: AD1 Forensic Imaging Test Schedule
+        author: Brian Londregan
+        no productions
+        rank: 104 - type: MSG - size: 21k - mtime: Thu Sep 15 11:08:39 2011
+     5. file: 2 more forensic questions.msg
+        path: ex07int.integration.com/Limited/Corpus/msg/
+        title: 2 more forensic questions
+        author: Brian Londregan
+        no productions
+        rank: 104 - type: MSG - size: 25k - mtime: Thu Sep 15 11:08:39 2011
+     6. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 104 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     7. file: www_woodsforthetrees_org_woodsforthetrees.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: WOODS FOR THE TREES
+        author: Jeff Rusch
+        no productions
+        rank: 55 - type: RTF - size: 20k - mtime: Fri Nov  5 03:48:52 2004
+     8. file: www_woodsforthetrees_org_woodsforthetrees.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: WOODS FOR THE TREES
+        author: Jeff Rusch
+        no productions
+        rank: 55 - type: RTF - size: 20k - mtime: Fri Nov  5 03:48:52 2004
+     9. file: koti_mbnet_fi_delenn_id1.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Biology - Tackling Ultimate Complexity, osa 1
+        author: Leena
+        no productions
+        rank: 53 - type: RTF - size: 40k - mtime: Mon Apr  4 13:50:12 2005
+    10. file: koti_mbnet_fi_delenn_id1.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Biology - Tackling Ultimate Complexity, osa 1
+        author: Leena
+        no productions
+        rank: 53 - type: RTF - size: 40k - mtime: Mon Apr  4 13:50:12 2005
+
+  query id 137
+  elapsed time 0.688304 seconds
+No matching command
+  Found 966 results (18 - 1157) for your search on "increasing"
+  Page 1:
+     1. file: acl_ldc_upenn_edu_83_83_1010.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        title: PARSING WITH LOGICAL VARIABLES
+        author: Timothy W. Finln; Martha Stone Palmer
+        no productions
+        rank: 76 - type: PDF - size: 436k - mtime: Mon Apr  4 13:50:12 2005
+     2. file: acl_ldc_upenn_edu_83_83_1010.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        title: PARSING WITH LOGICAL VARIABLES
+        author: Timothy W. Finln; Martha Stone Palmer
+        no productions
+        rank: 76 - type: PDF - size: 436k - mtime: Mon Apr  4 13:50:12 2005
+     3. subject: RE: Comp Plan
+        folder: Top of Personal Folders\2002-2\
+        sender: "Tom Brooksher" <tom@ncti.com>
+        to: "Tom Brooksher" <tom@ncti.com>
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: 000000000005e8b0
+        key: da567d72924ae641b2812ae3192c946
+        no productions
+        rank: 76 - type: PSTMSG - size: 7k - mtime: Wed Jun 19 19:32:47 2002
+     4. subject: Custom Food Products
+        folder: Top of Personal Folders\2002-2\000000000005cdb8
+        sender: NATIONSCREDIT COMMERCIAL
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Sun Valley Portfolio Review-Q2 2002.doc
+        key: 
+        no productions
+        rank: 76 - type: DOC - size: 73k - mtime: Fri Aug 23 16:40:27 2002
+     5. subject: Custom Food Products
+        folder: Top of Personal Folders\2002-2\000000000005af6c
+        sender: NATIONSCREDIT COMMERCIAL
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Sun Valley Portfolio Review-Q3 2002.doc
+        key: 
+        no productions
+        rank: 76 - type: DOC - size: 76k - mtime: Sat Nov  2 18:39:22 2002
+     6. subject: Introduction
+        folder: Top of Personal Folders\2002-2\000000000005dcd0
+        sender: Brian
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Tensar KRG Annual Mtg Presentation 7-11-02.ppt
+        key: 
+        no productions
+        rank: 65 - type: PPT - size: 14m - mtime: Wed Jul 17 12:55:24 2002
+     7. file: Optimisation of dependability control .doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: Optimization of dependability control and environmental aspects of machines
+        author: prof.V.Legát
+        no productions
+        rank: 64 - type: DOC - size: 40k - mtime: Thu Apr 14 13:05:30 2005
+     8. file: dhinfo-www.dhinfo.com_Resources_WebExScheduleSept2002.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Arjan Timmermans
+        no productions
+        rank: 62 - type: XLS - size: 40k - mtime: Tue Apr  5 11:30:48 2005
+     9. file: die.gov-www.die.gov.tr_english_SONIST_SIRKET_270103.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: die
+        no productions
+        rank: 62 - type: XLS - size: 75k - mtime: Tue Feb 22 13:42:20 2005
+    10. file: die.gov-www.die.gov.tr_english_SONIST_SIRKET_230103.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: die
+        no productions
+        rank: 62 - type: XLS - size: 63k - mtime: Fri Apr  1 16:24:18 2005
+
+  query id 144
+  elapsed time 0.884917 seconds
+No matching command
+  Found 825 results (10 - 988) for your search on "recorded"
+  Page 1:
+     1. file: www_stat_gov_pl_publikacje_ceny_gosp_narod_m_2004_maj_uwagi_analityczne_ang.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: ANALYTICAL REMARKS
+        author: Pracownik
+        no productions
+        rank: 141 - type: RTF - size: 103k - mtime: Fri Nov  5 00:21:08 2004
+     2. file: www_stat_gov_pl_publikacje_ceny_gosp_narod_m_2004_maj_uwagi_analityczne_ang.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: ANALYTICAL REMARKS
+        author: Pracownik
+        no productions
+        rank: 141 - type: RTF - size: 103k - mtime: Fri Nov  5 00:21:08 2004
+     3. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000203_tab004c.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: AS
+        no productions
+        rank: 112 - type: XLS - size: 40k - mtime: Fri Apr  1 17:45:06 2005
+     4. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000161_tab004c.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: .
+        no productions
+        rank: 112 - type: XLS - size: 30k - mtime: Mon Apr  4 13:50:12 2005
+     5. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000150_tab004c.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: .
+        no productions
+        rank: 112 - type: XLS - size: 43k - mtime: Mon Apr  4 14:43:20 2005
+     6. file: www_digibio_com_doc_lbn98_01.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Poster presented at Experimental Biology '98 (FASEB)
+        author: xx
+        no productions
+        rank: 112 - type: RTF - size: 307k - mtime: Tue Apr  5 11:30:48 2005
+     7. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000203_tab004c.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: AS
+        no productions
+        rank: 112 - type: XLS - size: 40k - mtime: Fri Apr  1 17:45:06 2005
+     8. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000161_tab004c.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: .
+        no productions
+        rank: 112 - type: XLS - size: 30k - mtime: Mon Apr  4 13:50:12 2005
+     9. file: dfes.gov-www.dfes.gov.uk_rsgateway_DB_SFR_s000150_tab004c.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: .
+        no productions
+        rank: 112 - type: XLS - size: 43k - mtime: Mon Apr  4 14:43:20 2005
+    10. file: www_digibio_com_doc_lbn98_01.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Poster presented at Experimental Biology '98 (FASEB)
+        author: xx
+        no productions
+        rank: 112 - type: RTF - size: 307k - mtime: Tue Apr  5 11:30:48 2005
+
+  query id 146
+  elapsed time 1.116174 seconds
+No matching command
+  Found 72 results (15 - 97) for your search on "ft:xls AND (money)"
+  Page 1:
+     1. file: dstewart-www.dstewart.com_newdsc_soft_license_final_draft.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Charlene Ziegler
+        no productions
+        rank: 67 - type: XLS - size: 20k - mtime: Tue Feb 22 13:42:20 2005
+     2. file: deanoproductions-www.deanoproductions.com_downloads_rad2001.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: mark dean
+        no productions
+        rank: 67 - type: XLS - size: 96k - mtime: Thu Mar 10 14:50:58 2005
+     3. file: dstewart-www.dstewart.com_newdsc_soft_license_final_draft.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Charlene Ziegler
+        no productions
+        rank: 67 - type: XLS - size: 20k - mtime: Tue Feb 22 13:42:20 2005
+     4. file: deanoproductions-www.deanoproductions.com_downloads_rad2001.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: mark dean
+        no productions
+        rank: 67 - type: XLS - size: 96k - mtime: Thu Mar 10 14:50:58 2005
+     5. file: dstewart-www.dstewart.com_newdsc_soft_license_coda.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Randy Donnell
+        no productions
+        rank: 53 - type: XLS - size: 28k - mtime: Mon Apr  4 14:43:20 2005
+     6. file: dolir.mo-www.dolir.mo.gov_wc_forms_WC-115C-AI03.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Randy Voss
+        no productions
+        rank: 53 - type: XLS - size: 39k - mtime: Thu Mar 10 12:48:38 2005
+     7. file: dolir.mo-www.dolir.mo.gov_wc_forms_WC-115B-AI04.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: DOLIR
+        no productions
+        rank: 53 - type: XLS - size: 39k - mtime: Tue Apr  5 11:30:48 2005
+     8. file: dolir.mo-www.dolir.mo.gov_wc_forms_WC-115A-AI04.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: DOLIR
+        no productions
+        rank: 53 - type: XLS - size: 39k - mtime: Tue Feb 22 13:42:20 2005
+     9. file: dolir.mo-www.dolir.mo.gov_wc_forms_WC-115A-AI03.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Randy Voss
+        no productions
+        rank: 53 - type: XLS - size: 39k - mtime: Tue Apr  5 11:30:48 2005
+    10. file: dolir.mo-www.dolir.mo.gov_wc_forms_WC-115-AI04.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: DOLIR
+        no productions
+        rank: 53 - type: XLS - size: 39k - mtime: Thu Mar 10 14:50:58 2005
+
+  query id 170
+  elapsed time 0.915766 seconds
+No matching command
+  Found 146 results (20 - 201) for your search on "custody"
+  Page 1:
+     1. file: dmalabs-www.dmalabs.com_dmalabs_Marketing_SWCOC.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Leslie VanExel
+        no productions
+        rank: 100 - type: XLS - size: 94k - mtime: Fri Apr  1 17:04:42 2005
+     2. file: dmalabs-www.dmalabs.com_dmalabs_Marketing_SWCOC.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Leslie VanExel
+        no productions
+        rank: 100 - type: XLS - size: 94k - mtime: Fri Apr  1 17:04:42 2005
+     3. file: Index_Engines_User_Guide_v33.pdf
+        path: ex07int.integration.com/Limited/Corpus/pdf/
+        title: Index Engines User Guide ver. 3.3
+        author: L. Borelli
+        no productions
+        rank: 65 - type: PDF - size: 2m - mtime: Wed Mar 16 10:00:00 2011
+     4. file: www_wluml_org_english_news_2003_draft_bill.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: COLLATION OF SUBMISSIONS ON DISCUSSION PAPER 101: ISLAMIC MARRIAGES AND RELATED MATTERS
+        author: Hennie Potgieter
+        no productions
+        rank: 52 - type: RTF - size: 794k - mtime: Thu Nov  4 18:20:16 2004
+     5. file: www_wluml_org_english_news_2003_draft_bill.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: COLLATION OF SUBMISSIONS ON DISCUSSION PAPER 101: ISLAMIC MARRIAGES AND RELATED MATTERS
+        author: Hennie Potgieter
+        no productions
+        rank: 52 - type: RTF - size: 794k - mtime: Thu Nov  4 18:20:16 2004
+     6. file: ace_mu_nu_archives_038218_php.html
+        path: ex07int.integration.com/Limited/Corpus/html/
+        title: Ace of Spades HQ: Fly the Terrorist-Friendly Skies: Aircrews Confirm Muslims "Probing" Security
+        no productions
+        rank: 50 - type: HTM - size: 19k - mtime: Mon Apr  4 12:26:56 2005
+     7. file: www_denislyle_com_ermons_teaching_misc_whenchurchprays.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        no productions
+        rank: 34 - type: RTF - size: 20k - mtime: Mon Apr  4 14:43:20 2005
+     8. file: www_denislyle_com_ermons_teaching_misc_whenchurchprays.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        no productions
+        rank: 34 - type: RTF - size: 20k - mtime: Mon Apr  4 14:43:20 2005
+     9. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 34 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+    10. file: TS13.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 34 - type: TXT - size: 4k - mtime: Mon Sep 13 15:02:02 2004
+
+  query id 145
+  elapsed time 1.135030 seconds
+No matching command
+  Found 515 results (11 - 515) for your search on "tape"
+  Page 1:
+     1. file: Ural_rpm252-16.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 1m - mtime: Fri Jul 18 10:34:54 2008
+     2. file: Ural_NBU20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 154k - mtime: Wed Jul 16 08:54:32 2008
+     3. file: Ural_20715_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 232k - mtime: Tue Jul 15 08:53:58 2008
+     4. file: Tivoli_Hudson_25217.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 205k - mtime: Thu Jul 24 08:27:06 2008
+     5. file: Mystic_20715.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 192k - mtime: Tue Jul 15 08:53:22 2008
+     6. file: Jurua_io_xls_log_disabled_25217.txt
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        no productions
+        rank: 210 - type: TXT - size: 9k - mtime: Thu Jul 24 12:27:36 2008
+     7. file: Jurua_IO_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 178k - mtime: Tue Jul 15 08:55:18 2008
+     8. file: Hudson_legato_252-16.txt
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        no productions
+        rank: 210 - type: TXT - size: 8k - mtime: Mon Jul 21 07:20:06 2008
+     9. file: Hudson_legato20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 158k - mtime: Wed Jul 16 08:57:22 2008
+    10. file: Hudson_arcserve_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 210 - type: DOC - size: 185k - mtime: Tue Jul 15 08:54:30 2008
+
+  query id 165
+  elapsed time 1.142534 seconds
+No matching command
+  Found 38 results (19 - 38) for your search on "NOT (computer OR performance) AND ft:doc"
+  Page 1:
+     1. file: eage-www.eage.org_files_Exhcon2003.doc
+        path: ex07int.integration.com/Global/TomsData/Duplicate Content/
+        title: EAGE TECHNICAL EXHIBITION 7 - 11 JUNE 1999, HELSINKI, FINLAND
+        author: Daniëlle Lensink
+        no productions
+        rank: 0 - type: DOC - size: 38k - mtime: Fri Apr  1 16:23:28 2005
+     2. file: Ural_rpm252-16.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 1m - mtime: Fri Jul 18 10:34:54 2008
+     3. file: Ural_NBU20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 154k - mtime: Wed Jul 16 08:54:32 2008
+     4. file: Ural_20715_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 232k - mtime: Tue Jul 15 08:53:58 2008
+     5. file: Tivoli_Hudson_25217.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 205k - mtime: Thu Jul 24 08:27:06 2008
+     6. file: Mystic_20715.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 192k - mtime: Tue Jul 15 08:53:22 2008
+     7. file: Jurua_IO_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 178k - mtime: Tue Jul 15 08:55:18 2008
+     8. file: install.docx
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        author: administrator
+        no productions
+        rank: 0 - type: DOC - size: 239k - mtime: Mon Jul 20 15:05:14 2009
+     9. file: Hudson_legato20755_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 158k - mtime: Wed Jul 16 08:57:22 2008
+    10. file: Hudson_arcserve_.doc
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title:  
+        author: Administrator
+        no productions
+        rank: 0 - type: DOC - size: 185k - mtime: Tue Jul 15 08:54:30 2008
+
+  query id 163
+  elapsed time 1.161730 seconds
+No matching command
+  Found 2705 results (19 - 4322) for your search on "information"
+  Page 1:
+     1. file: dnda-www.dnda.org_projects_demographic.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: tmacaluso
+        no productions
+        rank: 154 - type: XLS - size: 94k - mtime: Tue Apr  5 11:30:48 2005
+     2. file: dnda-www.dnda.org_projects_demographic.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: tmacaluso
+        no productions
+        rank: 154 - type: XLS - size: 94k - mtime: Tue Apr  5 11:30:48 2005
+     3. file: YourClassPage.comTour.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: YourClassPage.com Quick Start Guide
+        author: Kyle
+        no productions
+        rank: 154 - type: PPT - size: 349k - mtime: Fri Apr  1 17:04:48 2005
+     4. file: Gotransit.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: PowerPoint Presentation
+        author: EveW
+        no productions
+        rank: 154 - type: PPT - size: 2m - mtime: Mon Feb 21 17:20:34 2005
+     5. file: diglib-www.diglib.org_pubs_scholinfo_excel_question9.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: David Seaman
+        no productions
+        rank: 143 - type: XLS - size: 121k - mtime: Mon Apr  4 11:00:48 2005
+     6. file: www_ksu_edu_hr_forms_per15.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Kansas State University
+        author: Stephanie Puett
+        no productions
+        rank: 143 - type: RTF - size: 30k - mtime: Fri Apr  1 16:24:18 2005
+     7. file: diglib-www.diglib.org_pubs_scholinfo_excel_question9.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: David Seaman
+        no productions
+        rank: 143 - type: XLS - size: 121k - mtime: Mon Apr  4 11:00:48 2005
+     8. file: www_ksu_edu_hr_forms_per15.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Kansas State University
+        author: Stephanie Puett
+        no productions
+        rank: 143 - type: RTF - size: 30k - mtime: Fri Apr  1 16:24:18 2005
+     9. file: DataSecurity.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: Data Security
+        author: Jordi MacDonald
+        no productions
+        rank: 143 - type: PPT - size: 224k - mtime: Fri Apr  1 17:04:48 2005
+    10. file: www_wvfc_org_pao.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Pilots Guide to California Airports - Palo Alto
+        no productions
+        rank: 141 - type: HTM - size: 15k - mtime: Mon Apr  4 12:26:56 2005
+
+  query id 138
+  elapsed time 1.246137 seconds
+No matching command
+  Found 4 results (4 - 4) for your search on "(cat OR dog) and ft:doc"
+  Page 1:
+     1. file: LOST ECHOESs.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: ACT 1
+        author: Christopher Parr
+        no productions
+        rank: 26 - type: DOC - size: 297k - mtime: Mon Feb 21 17:20:34 2005
+     2. file: EXECUTIVE COMMITTEE.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: Executive Committee 28th June 2000
+        author: EW/LN/CB
+        no productions
+        rank: 26 - type: DOC - size: 514k - mtime: Tue Apr 19 12:07:15 2005
+     3. file: LAST MEN.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: Last Men Screenplay
+        author: Christopher Parr
+        no productions
+        rank: 13 - type: DOC - size: 460k - mtime: Fri Apr  1 16:23:27 2005
+     4. file: Holocaust Memorial Day .doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: Survivors stories
+        author: denise chaplin
+        no productions
+        rank: 13 - type: DOC - size: 1m - mtime: Tue Apr 19 12:07:15 2005
+
+  query id 152
+  elapsed time 1.275773 seconds
+No matching command
+  Found 20 results (13 - 24) for your search on "ft:msg AND (hello OR world)"
+  Page 1:
+     1. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 68 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+     2. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 68 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+     3. file: office-2007pst.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: office-2007pst
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 23 - type: MSG - size: 1m - mtime: Tue Mar 11 17:09:59 2008
+     4. file: office-2007pst.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: office-2007pst
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 23 - type: MSG - size: 1m - mtime: Tue Mar 11 17:09:59 2008
+     5. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+     6. file: TGIF-hm files attached here.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: TGIF-hm files attached here
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 175k - mtime: Tue Mar 11 17:10:14 2008
+     7. file: Paypal-Plain text.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Paypal-Plain text
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 225k - mtime: Tue Mar 11 17:09:59 2008
+     8. file: Mixture of various files.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Mixture of various files
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 47m - mtime: Tue Mar 11 17:10:04 2008
+     9. file: Flag the item to be follow up-pptx.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Flag the item to be follow up-pptx
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 8m - mtime: Tue Mar 11 17:10:00 2008
+    10. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 10 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+
+  query id 161
+  elapsed time 1.275063 seconds
+No matching command
+  Found 251 results (12 - 348) for your search on "probability"
+  Page 1:
+     1. file: Eurocodes – failing to standardise safety.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: PowerPoint Presentation
+        author: ByfieldM
+        no productions
+        rank: 157 - type: PPT - size: 2m - mtime: Fri Apr  1 17:45:17 2005
+     2. file: bell-labs-cm.bell-labs.com_who_tkh_talks_geocomplexity.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Near-Earth Asteroid Tracking Summary of NEAT Results 12/95-2/96
+        author: spravdo
+        no productions
+        rank: 82 - type: PPT - size: 2m - mtime: Fri Apr  1 16:24:18 2005
+     3. file: bell-labs-cm.bell-labs.com_who_tkh_talks_geocomplexity.ppt
+        path: ex07int.integration.com/Global/TomsData/Corpus/ppt_tl2/b/
+        title: Near-Earth Asteroid Tracking Summary of NEAT Results 12/95-2/96
+        author: spravdo
+        no productions
+        rank: 82 - type: PPT - size: 2m - mtime: Fri Apr  1 16:24:18 2005
+     4. file: fishbull_noaa_gov_1021_baba.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        title: 02 Baba FISH BULL 102(1)
+        author: Sara
+        no productions
+        rank: 77 - type: PDF - size: 524k - mtime: Mon Apr  4 12:26:56 2005
+     5. file: fishbull_noaa_gov_1021_baba.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        title: 02 Baba FISH BULL 102(1)
+        author: Sara
+        no productions
+        rank: 77 - type: PDF - size: 524k - mtime: Mon Apr  4 12:26:56 2005
+     6. subject: PowerPoint Presentation
+        folder: Top of Personal Folders\2002-2\000000000005b464
+        sender: John A. Lanier
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Platform Tool Chest Summary.ppt
+        key: 
+        no productions
+        rank: 63 - type: PPT - size: 109k - mtime: Wed Oct 16 20:27:17 2002
+     7. file: dvc-www.dvc.edu_instruction_CoursestoDisciplinesFA03.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Evening Office
+        no productions
+        rank: 61 - type: XLS - size: 185k - mtime: Mon Apr  4 12:26:56 2005
+     8. file: duke-www.duke.edu_~maug_teaching_acf_BinomialTree.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Ernst Maug
+        no productions
+        rank: 61 - type: XLS - size: 108k - mtime: Mon Apr  4 13:50:12 2005
+     9. file: www_mc_ntu_edu_tw_ntuph_chinese_professor_professor_weichu_mch_course_c7.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: 人工生殖
+        author: 台大醫療機構管理研究所
+        no productions
+        rank: 61 - type: RTF - size: 36k - mtime: Mon Apr  4 12:26:56 2005
+    10. file: dvc-www.dvc.edu_instruction_CoursestoDisciplinesFA03.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Evening Office
+        no productions
+        rank: 61 - type: XLS - size: 185k - mtime: Mon Apr  4 12:26:56 2005
+
+  query id 159
+  elapsed time 1.274479 seconds
+No matching command
+  Found 1350 results (16 - 1886) for your search on "(soft OR copy)"
+  Page 1:
+     1. file: Reach Public Services .rtf
+        path: ex07int.integration.com/Limited/Corpus/rtf/
+        title: Reach PSB Phase One RTP Q&A
+        author:  Reach
+        no productions
+        rank: 179 - type: RTF - size: 391k - mtime: Tue Apr 19 12:07:15 2005
+     2. file: dstewart-www.dstewart.com_newdsc_soft_license_pinnacle.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Colin Sharp
+        no productions
+        rank: 178 - type: XLS - size: 25k - mtime: Tue Apr  5 11:30:48 2005
+     3. file: dstewart-www.dstewart.com_newdsc_soft_license_pinnacle.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Colin Sharp
+        no productions
+        rank: 178 - type: XLS - size: 25k - mtime: Tue Apr  5 11:30:48 2005
+     4. file: dstewart-www.dstewart.com_newdsc_soft_license_sunburst_flex.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Bruce Riley
+        no productions
+        rank: 137 - type: XLS - size: 26k - mtime: Mon Apr  4 11:43:04 2005
+     5. file: dstewart-www.dstewart.com_newdsc_soft_license_sunburst_flex.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Bruce Riley
+        no productions
+        rank: 137 - type: XLS - size: 26k - mtime: Mon Apr  4 11:43:04 2005
+     6. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 137 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     7. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 137 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     8. file: ESL Lesson .doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: ESL Lesson for 2-3-05—Teacher Copy
+        author: Trial User
+        no productions
+        rank: 135 - type: DOC - size: 22k - mtime: Tue Apr 19 12:07:15 2005
+     9. file: planning tools.pdf
+        path: ex07int.integration.com/Limited/Corpus/pdf/
+        title: imodss-3.dvi
+        no productions
+        rank: 127 - type: PDF - size: 379k - mtime: Mon Apr  4 10:02:20 2005
+    10. file: diglib-www.diglib.org_pubs_scholinfo_excel_question9.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: David Seaman
+        no productions
+        rank: 111 - type: XLS - size: 121k - mtime: Mon Apr  4 11:00:48 2005
+
+  query id 160
+  elapsed time 1.284915 seconds
+No matching command
+  Found 30 results (18 - 34) for your search on "(storage capacities)"
+  Page 1:
+     1. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 162 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     2. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 162 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     3. file: www_florilegium_org_files_history_msg.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: P-history-msg
+        author: Edited by Mark S. Harris
+        no productions
+        rank: 64 - type: RTF - size: 130k - mtime: Mon Apr  4 11:00:48 2005
+     4. file: www_florilegium_org_files_history_msg.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: P-history-msg
+        author: Edited by Mark S. Harris
+        no productions
+        rank: 64 - type: RTF - size: 130k - mtime: Mon Apr  4 11:00:48 2005
+     5. subject: Draft as of
+        folder: Top of Personal Folders\2002-2\000000000005c270
+        sender: Sharon Companik
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: Memorandum 9-19-02.pdf
+        key: 
+        no productions
+        rank: 39 - type: PDF - size: 799k - mtime: Thu Sep 19 12:53:51 2002
+     6. file: www_rosenkreis_ch_dokumente_pdf_teaching.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        title: ﻿Teaching and Revelations
+        author: ﻿Rosenkreis Publishing
+        no productions
+        rank: 26 - type: PDF - size: 1m - mtime: Mon Nov  8 08:33:06 2004
+     7. file: www_rosenkreis_ch_dokumente_pdf_announcement.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        title: ﻿aktuell.PDF
+        author: ﻿KCC
+        no productions
+        rank: 26 - type: PDF - size: 995k - mtime: Thu Mar 10 13:23:04 2005
+     8. file: www_vasulka_org_archive_4_30e_an_6006.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        no productions
+        rank: 26 - type: RTF - size: 281k - mtime: Fri Nov  5 00:52:58 2004
+     9. file: www_share_international_org_archives_geless_isdom_the_joy_hrcjoy.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: THE JOY OF CHRIST'S COMING
+        author: om om
+        no productions
+        rank: 26 - type: RTF - size: 444k - mtime: Fri Nov  5 03:08:10 2004
+    10. file: www_arc_gov_au_rtf_2000rfcd_spirt.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: «PrimaryClassCd»  «ClassCdDesc»
+        author: Rod Barlow
+        no productions
+        rank: 26 - type: RTF - size: 773k - mtime: Tue Apr  5 11:30:48 2005
+
+  query id 143
+  elapsed time 1.339669 seconds
+No matching command
+  Found 19 results (13 - 22) for your search on "computer AND ft:msg"
+  Page 1:
+     1. file: Bug 4348  New  Not able to disable AD from command line.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: [Bug 4348] New: Not able to disable AD from command line
+        author: bugzilla-daemon@kama.tworiverlabs.com <bugzilla-daemon@kama.tworiverlabs.com>
+        no productions
+        rank: 38 - type: MSG - size: 26k - mtime: Mon Mar 17 11:25:50 2008
+     2. file: Bug 4348  New  Not able to disable AD from command line.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: [Bug 4348] New: Not able to disable AD from command line
+        author: bugzilla-daemon@kama.tworiverlabs.com <bugzilla-daemon@kama.tworiverlabs.com>
+        no productions
+        rank: 38 - type: MSG - size: 26k - mtime: Mon Mar 17 11:25:50 2008
+     3. file: Flag the item to be follow up-pptx.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Flag the item to be follow up-pptx
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 24 - type: MSG - size: 8m - mtime: Tue Mar 11 17:10:00 2008
+     4. file: Flag the item to be follow up-pptx.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: Flag the item to be follow up-pptx
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 24 - type: MSG - size: 8m - mtime: Tue Mar 11 17:10:00 2008
+     5. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+     6. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+     7. file: office-2007pst.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: office-2007pst
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 1m - mtime: Tue Mar 11 17:09:59 2008
+     8. file: Mixture of various files.msg
+        path: ex07int.integration.com/Global/TomsData/Folder A/
+        title: Mixture of various files
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 47m - mtime: Tue Mar 11 17:10:04 2008
+     9. file: xls attachments.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: xls attachments
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 1m - mtime: Tue Mar 11 17:10:03 2008
+    10. file: pdf files-walmart-sams club.msg
+        path: ex07int.integration.com/Global/TomsData/Folder B/
+        title: pdf files-walmart-sams club
+        author: nbu_mstorm1@kolyma
+        no productions
+        rank: 11 - type: MSG - size: 9m - mtime: Tue Mar 11 17:10:01 2008
+
+  query id 162
+  elapsed time 1.273406 seconds
+No matching command
+  Found 1134 results (16 - 2033) for your search on "(science OR relates)"
+  Page 1:
+     1. file: www_rals_ed_ac_uk_publications_hss_umanities04.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        title: BA Humanities A4
+        author: Charlie
+        no productions
+        rank: 196 - type: PDF - size: 45k - mtime: Mon Apr  4 14:43:20 2005
+     2. file: www_menloschool_org_publications_andbooks_tudent_arent_andbook_aculty_rofiles.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        no productions
+        rank: 196 - type: PDF - size: 47k - mtime: Mon Apr  4 12:26:56 2005
+     3. file: www_elkgrove_org_esleyan_ocuments_cience_and_eligion.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Teil-hard de Char-din             (ta-yar d shar-daN')    Pierre
+        author: Rod Pickett
+        no productions
+        rank: 196 - type: RTF - size: 19k - mtime: Thu Mar 10 13:23:04 2005
+     4. file: www_rals_ed_ac_uk_publications_hss_umanities04.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        title: BA Humanities A4
+        author: Charlie
+        no productions
+        rank: 196 - type: PDF - size: 45k - mtime: Mon Apr  4 14:43:20 2005
+     5. file: www_menloschool_org_publications_andbooks_tudent_arent_andbook_aculty_rofiles.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        no productions
+        rank: 196 - type: PDF - size: 47k - mtime: Mon Apr  4 12:26:56 2005
+     6. file: www_elkgrove_org_esleyan_ocuments_cience_and_eligion.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Teil-hard de Char-din             (ta-yar d shar-daN')    Pierre
+        author: Rod Pickett
+        no productions
+        rank: 196 - type: RTF - size: 19k - mtime: Thu Mar 10 13:23:04 2005
+     7. file: www_int_stsci_edu_plee_cv2001.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        no productions
+        rank: 180 - type: PDF - size: 10k - mtime: Tue Apr  5 11:30:48 2005
+     8. file: www_int_stsci_edu_plee_cv2001.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        no productions
+        rank: 180 - type: PDF - size: 10k - mtime: Tue Apr  5 11:30:48 2005
+     9. file: Geological Sciences.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: Timothy I
+        author: lixing
+        no productions
+        rank: 168 - type: DOC - size: 102k - mtime: Mon Mar 28 17:50:26 2005
+    10. file: dvc-www.dvc.edu_instruction_CoursestoDisciplinesFA03.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Evening Office
+        no productions
+        rank: 167 - type: XLS - size: 185k - mtime: Mon Apr  4 12:26:56 2005
+
+  query id 141
+  elapsed time 1.354705 seconds
+No matching command
+  Found 208 results (16 - 247) for your search on "(hello world)"
+  Page 1:
+     1. subject: $370 off Digital ID World conference - Oct 9-11
+        folder: Top of Personal Folders\2002-2\
+        sender: "First Tuesday" <First_Tuesday_Colorado_Admin@123signup9.com>
+        to: "First Tuesday" <First_Tuesday_Colorado_Admin@123signup9.com>
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: 000000000005c364
+        key: 157827ee1f7a5a4e8937d23779eeb4d1
+        no productions
+        rank: 140 - type: PSTMSG - size: 7k - mtime: Tue Sep 17 13:19:34 2002
+     2. file: www_amnestyusa_org_waronterror_ct_oolkit.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: America Responds to the USA PATRIOT Act and Other Government Measures: 
+        author: eumedir
+        no productions
+        rank: 134 - type: RTF - size: 3m - mtime: Thu Mar 10 14:15:18 2005
+     3. file: www_amnestyusa_org_waronterror_ct_oolkit.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: America Responds to the USA PATRIOT Act and Other Government Measures: 
+        author: eumedir
+        no productions
+        rank: 134 - type: RTF - size: 3m - mtime: Thu Mar 10 14:15:18 2005
+     4. file: TC10_7_Million_Files.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 129 - type: TXT - size: 39b - mtime: Mon Jun 20 10:55:29 2011
+     5. file: BrianBook1.csv
+        path: ex07int.integration.com/Limited/Corpus/xls/
+        no productions
+        rank: 129 - type: TXT - size: 29b - mtime: Fri Mar 25 14:00:18 2011
+     6. file: hello1.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 22b - mtime: Thu Sep 15 11:15:10 2011
+     7. file: hello3.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 21b - mtime: Thu Sep 15 11:15:28 2011
+     8. file: hello2.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 21b - mtime: Thu Sep 15 11:15:18 2011
+     9. file: www_angelfire_com_ego_inourtime_iotm39.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        no productions
+        rank: 117 - type: RTF - size: 25k - mtime: Thu Mar 10 15:04:02 2005
+    10. file: www_angelfire_com_ego_inourtime_iotm39.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        no productions
+        rank: 117 - type: RTF - size: 25k - mtime: Thu Mar 10 15:04:02 2005
+
+  query id 168
+  elapsed time 1.304691 seconds
+No matching command
+  Found 110 results (14 - 150) for your search on "(John Doe)"
+  Page 1:
+     1. file: www_arachnoid_com_lutusp_ftp_articles_mars.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Did Earth's life originate on Mars
+        author: john doe
+        no productions
+        rank: 166 - type: RTF - size: 9k - mtime: Mon Apr  4 13:50:12 2005
+     2. file: www_arachnoid_com_lutusp_ftp_articles_mars.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Did Earth's life originate on Mars
+        author: john doe
+        no productions
+        rank: 166 - type: RTF - size: 9k - mtime: Mon Apr  4 13:50:12 2005
+     3. file: doe.state.la-www.doe.state.la.us_lde_uploads_3105.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Lori Howell
+        no productions
+        rank: 143 - type: XLS - size: 73k - mtime: Thu Mar 10 15:04:02 2005
+     4. file: doe.state.la-www.doe.state.la.us_lde_uploads_3105.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Lori Howell
+        no productions
+        rank: 143 - type: XLS - size: 73k - mtime: Thu Mar 10 15:04:02 2005
+     5. file: doe.state.la-www.doe.state.la.us_lde_uploads_3766.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: kbarker
+        no productions
+        rank: 141 - type: XLS - size: 27k - mtime: Tue Apr  5 11:30:48 2005
+     6. file: doe.state.la-www.doe.state.la.us_lde_uploads_3760.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: cstevens
+        no productions
+        rank: 141 - type: XLS - size: 36k - mtime: Mon Apr  4 14:43:20 2005
+     7. file: doe.state.la-www.doe.state.la.us_lde_uploads_3757.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: cstevens
+        no productions
+        rank: 141 - type: XLS - size: 36k - mtime: Thu Mar 10 16:40:34 2005
+     8. file: doe.state.la-www.doe.state.la.us_lde_uploads_3755.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: cstevens
+        no productions
+        rank: 141 - type: XLS - size: 36k - mtime: Mon Apr  4 12:26:56 2005
+     9. file: doe.state.la-www.doe.state.la.us_lde_uploads_3750.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: cstevens
+        no productions
+        rank: 141 - type: XLS - size: 25k - mtime: Thu Mar 10 14:15:18 2005
+    10. file: doe.state.la-www.doe.state.la.us_lde_uploads_3666.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: cstevens
+        no productions
+        rank: 141 - type: XLS - size: 51k - mtime: Tue Apr  5 11:30:48 2005
+
+  query id 147
+  elapsed time 1.344940 seconds
+No matching command
+  Found 62 results (20 - 62) for your search on "(hello OR world) and ft:txt"
+  Page 1:
+     1. file: TC10_7_Million_Files.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 129 - type: TXT - size: 39b - mtime: Mon Jun 20 10:55:29 2011
+     2. file: BrianBook1.csv
+        path: ex07int.integration.com/Limited/Corpus/xls/
+        no productions
+        rank: 129 - type: TXT - size: 29b - mtime: Fri Mar 25 14:00:18 2011
+     3. file: hello1.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 22b - mtime: Thu Sep 15 11:15:10 2011
+     4. file: hello3.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 21b - mtime: Thu Sep 15 11:15:28 2011
+     5. file: hello2.txt
+        path: ex07int.integration.com/Limited/Share/hellotexts.zip
+        subpath: 
+        no productions
+        rank: 129 - type: TXT - size: 21b - mtime: Thu Sep 15 11:15:18 2011
+     6. file: TC7_20Mailboxes.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 102 - type: TXT - size: 520b - mtime: Mon Jun 20 13:24:29 2011
+     7. file: TS21.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 84 - type: TXT - size: 6k - mtime: Mon Sep 13 15:02:42 2004
+     8. file: TS2.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 84 - type: TXT - size: 6k - mtime: Thu Jun 17 08:25:20 2004
+     9. file: test5.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 84 - type: TXT - size: 6k - mtime: Wed Feb 23 11:19:52 2005
+    10. file: test11.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 84 - type: TXT - size: 6k - mtime: Wed Feb 23 11:18:42 2005
+
+  query id 154
+  elapsed time 1.333845 seconds
+No matching command
+  Found 38169 results (510 - 38169) for your search on "NOT (hello OR computer)"
+  Page 1:
+     1. file: www_zacks_com_research_report_php_t_airt_type_main_pd_1.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Zacks Investment Research: Profit from the Pros 
+        no productions
+        rank: 0 - type: HTM - size: 20k - mtime: Fri Apr  1 17:04:42 2005
+     2. file: www_yourdictionary_com_ahd_a_a0165600.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: airt - yourDictionary.com - American Heritage Dictionary
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Fri Apr  1 16:24:18 2005
+     3. file: www_yourdictionary_com_ahd_a_a0164600.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: airsick - yourDictionary.com - American Heritage Dictionary
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Fri Apr  1 17:04:42 2005
+     4. file: www_wvfc_org_pao.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Pilots Guide to California Airports - Palo Alto
+        no productions
+        rank: 0 - type: HTM - size: 15k - mtime: Mon Apr  4 12:26:56 2005
+     5. file: www_wpafb_af_mil_museum_history_postwwi_baa.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Balloons and Airships - US Air Force Museum Post-WWI History Gallery
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Tue Nov  2 09:58:00 2004
+     6. file: www_worldwar1_com_sfzepp.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Trenches on the Web - Special: Dirigibles, Airships, Zeppelins and Blimps
+        no productions
+        rank: 0 - type: HTM - size: 18k - mtime: Mon Apr  4 11:43:04 2005
+     7. file: www_worlddryer_com_airspeed.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: World Dryer Corporation | Airspeed Hand Dryers
+        author: Hamilton & Bond, Inc.
+        no productions
+        rank: 0 - type: HTM - size: 16k - mtime: Fri Apr  1 17:45:06 2005
+     8. file: www_worldchanging_com_archives_000776.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: WorldChanging: Another World Is Here: Return of the Airship?
+        no productions
+        rank: 0 - type: HTM - size: 12k - mtime: Mon Apr  4 14:43:20 2005
+     9. file: www_worldburnsclub_com_poems_epistle_to_james_tennant_of_glenconner.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Epistle to James Tennant of Glenconner
+        no productions
+        rank: 0 - type: HTM - size: 7k - mtime: Mon Apr  4 11:43:04 2005
+    10. file: www_word_power_co_uk_catalogue_1861890907.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Airspaces - Word Power
+        no productions
+        rank: 0 - type: HTM - size: 26k - mtime: Tue Nov  2 09:44:34 2004
+
+  query id 167
+  elapsed time 1.308123 seconds
+No matching command
+  Found 14308 results (127 - 14308) for your search on "mtime:01/02/2010..12/01/2011"
+  Page 1:
+     1. file: EX07INT-Second_Storage_Group-Public_Folder_Databas-1063360701-1
+        path: ex07int.integration.com/Limited/Corpus/bkf/EX07INT-Second_Storage_Group-Public_Folder_Database.bkf
+        subpath: 
+        no productions
+        rank: 0 - type: MTFSSET - size: 6m - mtime: Tue Nov  1 19:05:59 2011
+     2. file: EX07INT-Second_Storage_Group-Public_Folder_Database.bkf
+        path: ex07int.integration.com/Limited/Corpus/bkf/
+        no productions
+        rank: 0 - type: MTF - size: 6m - mtime: Thu Nov 10 11:14:14 2011
+     3. file: Regression Test Cases - Summary.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 67k - mtime: Wed May 11 16:45:28 2011
+     4. file: Refresh Button Test Cases.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: cgallagher
+        no productions
+        rank: 0 - type: DOC - size: 38k - mtime: Tue Mar 22 13:27:47 2011
+     5. file: Preference Button Test Cases.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: cgallagher
+        no productions
+        rank: 0 - type: DOC - size: 37k - mtime: Wed Mar 23 11:45:49 2011
+     6. file: PerformanceBenchmarking - TEMPLATE V1.2.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 51k - mtime: Fri May 20 09:36:42 2011
+     7. file: PerformanceBenchmarking - 4.1.0 Extract.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 62k - mtime: Wed Sep  7 12:37:10 2011
+     8. file: PerformanceBenchmarking - 3.3.0 Extract.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 53k - mtime: Wed Sep  7 12:39:30 2011
+     9. file: Performance Profiler Instructions.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 0 - type: DOC - size: 24k - mtime: Fri Apr 15 09:27:03 2011
+    10. file: IE_Wildcard-v30.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: The Changing Face of eDiscovery
+        author: rebecca
+        no productions
+        rank: 0 - type: DOC - size: 438k - mtime: Mon Mar 21 10:33:34 2011
+
+  query id 156
+  elapsed time 1.359181 seconds
+No matching command
+  Found 14298 results (127 - 14298) for your search on "mtime:01/01/2010..12/01/2011"
+  Page 1:
+     1. file: EX07INT-Second_Storage_Group-Public_Folder_Databas-1063360701-1
+        path: ex07int.integration.com/Limited/Corpus/bkf/EX07INT-Second_Storage_Group-Public_Folder_Database.bkf
+        subpath: 
+        no productions
+        rank: 0 - type: MTFSSET - size: 6m - mtime: Tue Nov  1 19:05:59 2011
+     2. file: EX07INT-Second_Storage_Group-Public_Folder_Database.bkf
+        path: ex07int.integration.com/Limited/Corpus/bkf/
+        no productions
+        rank: 0 - type: MTF - size: 6m - mtime: Thu Nov 10 11:14:14 2011
+     3. file: Regression Test Cases - Summary.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 67k - mtime: Wed May 11 16:45:28 2011
+     4. file: Refresh Button Test Cases.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: cgallagher
+        no productions
+        rank: 0 - type: DOC - size: 38k - mtime: Tue Mar 22 13:27:47 2011
+     5. file: Preference Button Test Cases.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: cgallagher
+        no productions
+        rank: 0 - type: DOC - size: 37k - mtime: Wed Mar 23 11:45:49 2011
+     6. file: PerformanceBenchmarking - TEMPLATE V1.2.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 51k - mtime: Fri May 20 09:36:42 2011
+     7. file: PerformanceBenchmarking - 4.1.0 Extract.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 62k - mtime: Wed Sep  7 12:37:10 2011
+     8. file: PerformanceBenchmarking - 3.3.0 Extract.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: ssharma
+        no productions
+        rank: 0 - type: DOC - size: 53k - mtime: Wed Sep  7 12:39:30 2011
+     9. file: Performance Profiler Instructions.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 0 - type: DOC - size: 24k - mtime: Fri Apr 15 09:27:03 2011
+    10. file: IE_Wildcard-v30.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        title: The Changing Face of eDiscovery
+        author: rebecca
+        no productions
+        rank: 0 - type: DOC - size: 438k - mtime: Mon Mar 21 10:33:34 2011
+
+  query id 151
+  elapsed time 1.369727 seconds
+No matching command
+  Found 64 results (24 - 64) for your search on "ft:txt AND mtime:01/01/2010..12/01/2011"
+  Page 1:
+     1. file: Update.php
+        path: ex07int.integration.com/Limited/Corpus/php/
+        no productions
+        rank: 0 - type: TXT - size: 8k - mtime: Mon Jul 11 10:57:01 2011
+     2. file: Parse.php
+        path: ex07int.integration.com/Limited/Corpus/php/
+        no productions
+        rank: 0 - type: TXT - size: 26k - mtime: Mon Sep 12 12:57:21 2011
+     3. file: generatereport_process.php
+        path: ex07int.integration.com/Limited/Corpus/php/
+        no productions
+        rank: 0 - type: TXT - size: 23k - mtime: Mon Sep 12 11:52:06 2011
+     4. file: testing basics.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 4k - mtime: Thu Mar 24 14:21:58 2011
+     5. file: TC9_500,000_Files.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 12b - mtime: Mon Jun 20 10:56:38 2011
+     6. file: TC8_100Owners.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 2k - mtime: Fri Jun 17 14:17:42 2011
+     7. file: TC7_20Mailboxes.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 520b - mtime: Mon Jun 20 13:24:29 2011
+     8. file: TC6_3Mailboxes.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 79b - mtime: Thu Jun 23 15:05:21 2011
+     9. file: TC11_2000_OR_LargeQuery.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 19k - mtime: Thu Jun 23 12:00:08 2011
+    10. file: TC10_7_Million_Files.txt
+        path: ex07int.integration.com/Limited/Corpus/txt/
+        no productions
+        rank: 0 - type: TXT - size: 39b - mtime: Mon Jun 20 10:55:29 2011
+
+  query id 157
+  elapsed time 1.358893 seconds
+No matching command
+  Found 91 results (11 - 155) for your search on "(video tape)"
+  Page 1:
+     1. file: dir.state.tx-www.dir.state.tx.us_store_tsd_data_rates2.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: kharman
+        no productions
+        rank: 144 - type: XLS - size: 151k - mtime: Mon Apr  4 11:00:48 2005
+     2. file: www_ecsw_org_resourcecenter_newsletters_lentvid03.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Lent/Easter Videos
+        author: user
+        no productions
+        rank: 140 - type: RTF - size: 36k - mtime: Mon Apr  4 12:26:56 2005
+     3. file: dir.state.tx-www.dir.state.tx.us_store_tsd_data_rates2.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: kharman
+        no productions
+        rank: 129 - type: XLS - size: 151k - mtime: Mon Apr  4 11:00:48 2005
+     4. file: www_ecsw_org_resourcecenter_newsletters_lentvid03.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Lent/Easter Videos
+        author: user
+        no productions
+        rank: 125 - type: RTF - size: 36k - mtime: Mon Apr  4 12:26:56 2005
+     5. file: www_radicalsoftware_org_volume2nr3_pdf_2_3_art08.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        no productions
+        rank: 118 - type: PDF - size: 1m - mtime: Mon Apr  4 11:43:04 2005
+     6. file: www_radicalsoftware_org_volume2nr3_pdf_2_3_art08.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        no productions
+        rank: 118 - type: PDF - size: 1m - mtime: Mon Apr  4 11:43:04 2005
+     7. file: Index_Engines_User_Guide_v33.pdf
+        path: ex07int.integration.com/Limited/Corpus/pdf/
+        title: Index Engines User Guide ver. 3.3
+        author: L. Borelli
+        no productions
+        rank: 103 - type: PDF - size: 2m - mtime: Wed Mar 16 10:00:00 2011
+     8. file: www_encomm_freeserve_co_uk_eblack.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: 1. The concert of Endura at the Deadly Action festival in Lille seems to have traumatised a great number of people, doesn’t it? Can you explain the concept of this show? 
+        author: Stephen Pennick
+        no productions
+        rank: 89 - type: RTF - size: 59k - mtime: Mon Apr  4 14:43:20 2005
+     9. file: www_encomm_freeserve_co_uk_eblack.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: 1. The concert of Endura at the Deadly Action festival in Lille seems to have traumatised a great number of people, doesn’t it? Can you explain the concept of this show? 
+        author: Stephen Pennick
+        no productions
+        rank: 89 - type: RTF - size: 59k - mtime: Mon Apr  4 14:43:20 2005
+    10. file: www_woodsforthetrees_org_woodsforthetrees.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: WOODS FOR THE TREES
+        author: Jeff Rusch
+        no productions
+        rank: 70 - type: RTF - size: 20k - mtime: Fri Nov  5 03:48:52 2004
+
+  query id 169
+  elapsed time 1.231873 seconds
+No matching command
+  Found 652 results (13 - 1037) for your search on "(suspected OR distributing OR sensitive)"
+  Page 1:
+     1. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 159 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     2. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 159 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     3. file: dhs.vic.gov-www.dhs.vic.gov.au_privacy_downloads_xls_model_pia.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Andrew Simon Litwinow
+        no productions
+        rank: 87 - type: XLS - size: 219k - mtime: Fri Apr  1 17:04:42 2005
+     4. file: dhs.vic.gov-www.dhs.vic.gov.au_privacy_downloads_xls_model_pia.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Andrew Simon Litwinow
+        no productions
+        rank: 87 - type: XLS - size: 219k - mtime: Fri Apr  1 17:04:42 2005
+     5. file: www_feingold_org_hyone.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: PART ONE
+        author: Jane H. Hersey
+        no productions
+        rank: 73 - type: RTF - size: 299k - mtime: Mon Apr  4 13:50:12 2005
+     6. file: www_feingold_org_hyone.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: PART ONE
+        author: Jane H. Hersey
+        no productions
+        rank: 73 - type: RTF - size: 299k - mtime: Mon Apr  4 13:50:12 2005
+     7. file: https_ntc_cap_af_mil_ops_airspace_cfm.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: CAP Airspace Notification Form
+        no productions
+        rank: 72 - type: HTM - size: 6k - mtime: Mon Apr  4 11:43:04 2005
+     8. file: https_ntc_cap_af_mil_ops_airspace_cfm.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        title: CAP Airspace Notification Form
+        no productions
+        rank: 72 - type: HTM - size: 6k - mtime: Mon Apr  4 11:43:04 2005
+     9. file: BluetoothTM Manufacturing Test.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: Agilent Webcast Template
+        author: Denise Bryant
+        no productions
+        rank: 72 - type: PPT - size: 2m - mtime: Fri Apr 15 11:57:54 2005
+    10. file: www_eaisai_com_baba_docs_saimudhra.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        no productions
+        rank: 65 - type: PDF - size: 81k - mtime: Thu Mar 10 14:15:18 2005
+
+  query id 139
+  elapsed time 1.574420 seconds
+No matching command
+  Found 6726 results (15 - 10756) for your search on "(seized OR computer)"
+  Page 1:
+     1. file: bht-www.bht.com_ppt_technology_mar02.ppt
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/ppt_tl2/b/
+        title: Intellectual Property & Technology
+        author: Chris Wilson
+        no productions
+        rank: 140 - type: PPT - size: 1m - mtime: Mon Apr  4 13:50:12 2005
+     2. file: bht-www.bht.com_ppt_technology_mar02.ppt
+        path: ex07int.integration.com/Global/TomsData/Corpus/ppt_tl2/b/
+        title: Intellectual Property & Technology
+        author: Chris Wilson
+        no productions
+        rank: 140 - type: PPT - size: 1m - mtime: Mon Apr  4 13:50:12 2005
+     3. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 139 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     4. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 139 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     5. file: dorkyspice-www.dorkyspice.com_gs_docs_programs.xls
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/xls_tl1/d/
+        author: Noor Ali-Hasan
+        no productions
+        rank: 131 - type: XLS - size: 57k - mtime: Mon Apr  4 12:26:56 2005
+     6. file: dorkyspice-www.dorkyspice.com_gs_docs_programs.xls
+        path: ex07int.integration.com/Global/TomsData/Corpus/xls_tl1/d/
+        author: Noor Ali-Hasan
+        no productions
+        rank: 131 - type: XLS - size: 57k - mtime: Mon Apr  4 12:26:56 2005
+     7. file: Arizona.edu_Security.ppt
+        path: ex07int.integration.com/Limited/Corpus/ppt/
+        title: University of Arizona 
+        author: Melissa
+        no productions
+        rank: 131 - type: PPT - size: 469k - mtime: Mon Feb 21 11:30:30 2005
+     8. file: www_tug_org_boat_rticles_tb04_1_tb07ads.pdf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/pdf_tl2/12/
+        no productions
+        rank: 105 - type: PDF - size: 154k - mtime: Thu Mar 10 14:50:58 2005
+     9. file: www_tug_org_boat_rticles_tb04_1_tb07ads.pdf
+        path: ex07int.integration.com/Global/TomsData/Corpus/pdf_tl2/12/
+        no productions
+        rank: 105 - type: PDF - size: 154k - mtime: Thu Mar 10 14:50:58 2005
+    10. file: www_digibio_com_doc_lbn97_01.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Poster 
+        author: xx
+        no productions
+        rank: 104 - type: RTF - size: 290k - mtime: Mon Apr  4 11:00:48 2005
+
+  query id 142
+  elapsed time 1.707824 seconds
+No matching command
+  Found 544 results (15 - 757) for your search on "(still exists)"
+  Page 1:
+     1. subject: Market Size Modeling
+        folder: Top of Personal Folders\2002-2\000000000005da44
+        sender: Andy Nenni
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: tensarMarket Size Estimate1.doc
+        key: 
+        no productions
+        rank: 94 - type: DOC - size: 59k - mtime: Sat Jul 27 13:49:55 2002
+     2. file: encyclopedia_thefreedictionary_com_irspace.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Airspace - encyclopedia article about Airspace. Free access, no registration needed. What does Airspace mean? What is Airspace? Provided by the Free Online Encyclopedia.
+        no productions
+        rank: 88 - type: HTM - size: 18k - mtime: Fri Apr  1 17:45:06 2005
+     3. file: encyclopedia_thefreedictionary_com_irspace.html
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        title: Airspace - encyclopedia article about Airspace. Free access, no registration needed. What does Airspace mean? What is Airspace? Provided by the Free Online Encyclopedia.
+        no productions
+        rank: 88 - type: HTM - size: 18k - mtime: Fri Apr  1 17:45:06 2005
+     4. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Corpus/doc/
+        author: blondregan
+        no productions
+        rank: 79 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     5. file: Forensic Images - Notes.doc
+        path: ex07int.integration.com/Limited/Share/
+        author: blondregan
+        no productions
+        rank: 79 - type: DOC - size: 86k - mtime: Fri Aug 19 09:54:08 2011
+     6. subject: No Slide Title
+        folder: Top of Personal Folders\2002-2\000000000005c164
+        sender: SCorrado
+        path: ex07int.integration.com/Limited/Corpus/pst/Archive2.pst
+        name: MC Assembly Company Overview.ppt
+        key: 
+        no productions
+        rank: 78 - type: PPT - size: 154k - mtime: Fri Sep 20 20:41:47 2002
+     7. file: chavez_cde_ca_gov_odel_urriculum_eachers_essons_rade_4_ultural_iversity.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Lesson Title: 
+        author: Valued Sony Customer
+        no productions
+        rank: 53 - type: RTF - size: 58k - mtime: Thu Mar 10 10:10:48 2005
+     8. file: chavez_cde_ca_gov_odel_urriculum_eachers_essons_rade_4_ultural_iversity.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Lesson Title: 
+        author: Valued Sony Customer
+        no productions
+        rank: 53 - type: RTF - size: 58k - mtime: Thu Mar 10 10:10:48 2005
+     9. file: Educationinuniversity.pdf
+        path: ex07int.integration.com/Limited/Corpus/pdf/
+        title: Microsoft Word - bul_univ-bul-enl-t05.doc
+        author: David Modic
+        no productions
+        rank: 52 - type: PDF - size: 1002k - mtime: Fri Apr  1 16:44:20 2005
+    10. file: www_emedicine_com_ped_byname_interstitial_lung_disease_in_children.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: eMedicine - Interstitial Lung Disease in Children : Article Excerpt by:  James S Hagood, MD
+        no productions
+        rank: 51 - type: HTM - size: 10k - mtime: Tue Apr  5 11:30:48 2005
+
+  query id 166
+  elapsed time 1.668649 seconds
+No matching command
+  Found 9886 results (510 - 9886) for your search on "mtime:01/02/2000..12/01/2010"
+  Page 1:
+     1. file: www_zacks_com_research_report_php_t_airt_type_main_pd_1.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Zacks Investment Research: Profit from the Pros 
+        no productions
+        rank: 0 - type: HTM - size: 20k - mtime: Fri Apr  1 17:04:42 2005
+     2. file: www_yourdictionary_com_ahd_a_a0165600.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: airt - yourDictionary.com - American Heritage Dictionary
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Fri Apr  1 16:24:18 2005
+     3. file: www_yourdictionary_com_ahd_a_a0164600.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: airsick - yourDictionary.com - American Heritage Dictionary
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Fri Apr  1 17:04:42 2005
+     4. file: www_wvfc_org_pao.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Pilots Guide to California Airports - Palo Alto
+        no productions
+        rank: 0 - type: HTM - size: 15k - mtime: Mon Apr  4 12:26:56 2005
+     5. file: www_wpafb_af_mil_museum_history_postwwi_baa.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Balloons and Airships - US Air Force Museum Post-WWI History Gallery
+        no productions
+        rank: 0 - type: HTM - size: 3k - mtime: Tue Nov  2 09:58:00 2004
+     6. file: www_worldwar1_com_sfzepp.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Trenches on the Web - Special: Dirigibles, Airships, Zeppelins and Blimps
+        no productions
+        rank: 0 - type: HTM - size: 18k - mtime: Mon Apr  4 11:43:04 2005
+     7. file: www_worlddryer_com_airspeed.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: World Dryer Corporation | Airspeed Hand Dryers
+        author: Hamilton & Bond, Inc.
+        no productions
+        rank: 0 - type: HTM - size: 16k - mtime: Fri Apr  1 17:45:06 2005
+     8. file: www_worldchanging_com_archives_000776.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: WorldChanging: Another World Is Here: Return of the Airship?
+        no productions
+        rank: 0 - type: HTM - size: 12k - mtime: Mon Apr  4 14:43:20 2005
+     9. file: www_worldburnsclub_com_poems_epistle_to_james_tennant_of_glenconner.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Epistle to James Tennant of Glenconner
+        no productions
+        rank: 0 - type: HTM - size: 7k - mtime: Mon Apr  4 11:43:04 2005
+    10. file: www_word_power_co_uk_catalogue_1861890907.html
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Airspaces - Word Power
+        no productions
+        rank: 0 - type: HTM - size: 26k - mtime: Tue Nov  2 09:44:34 2004
+
+  query id 171
+  elapsed time 0.036053 seconds
+No matching command
+  Found 1806 results (16 - 2884) for your search on "world"
+  Page 1:
+     1. file: www_faithfutures_org_iturgy_20_pr03.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: TAWA UNION PARISH
+        author: Sherri J Weinberg
+        no productions
+        rank: 144 - type: RTF - size: 18k - mtime: Fri Nov  5 02:12:32 2004
+     2. file: www_faithfutures_org_iturgy_20_pr03.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: TAWA UNION PARISH
+        author: Sherri J Weinberg
+        no productions
+        rank: 144 - type: RTF - size: 18k - mtime: Fri Nov  5 02:12:32 2004
+     3. file: www_topskills_com_fsbooks_pim.htm
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/html_tl1/26/
+        title: Simulate Flight Realistically
+        author: TopSkills
+        no productions
+        rank: 143 - type: HTM - size: 48k - mtime: Thu Mar 10 14:50:58 2005
+     4. file: nccumc_org_missions_ayofthe_ross2.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Introduction
+        author: Steve Taylor
+        no productions
+        rank: 143 - type: RTF - size: 36k - mtime: Mon Apr  4 11:43:04 2005
+     5. file: www_topskills_com_fsbooks_pim.htm
+        path: ex07int.integration.com/Global/TomsData/Corpus/html_tl1/26/
+        title: Simulate Flight Realistically
+        author: TopSkills
+        no productions
+        rank: 143 - type: HTM - size: 48k - mtime: Thu Mar 10 14:50:58 2005
+     6. file: nccumc_org_missions_ayofthe_ross2.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Introduction
+        author: Steve Taylor
+        no productions
+        rank: 143 - type: RTF - size: 36k - mtime: Mon Apr  4 11:43:04 2005
+     7. file: www_wizards_com_dnd_files_schattenalfen.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        no productions
+        rank: 129 - type: RTF - size: 75k - mtime: Mon Apr  4 11:00:48 2005
+     8. file: www_elkgrove_org_esleyan_ocuments_cience_and_eligion.rtf
+        path: ex07int.integration.com/Global/Repeat/More/Corpus/rtf_tl2/
+        title: Teil-hard de Char-din             (ta-yar d shar-daN')    Pierre
+        author: Rod Pickett
+        no productions
+        rank: 129 - type: RTF - size: 19k - mtime: Thu Mar 10 13:23:04 2005
+     9. file: www_wizards_com_dnd_files_schattenalfen.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        no productions
+        rank: 129 - type: RTF - size: 75k - mtime: Mon Apr  4 11:00:48 2005
+    10. file: www_elkgrove_org_esleyan_ocuments_cience_and_eligion.rtf
+        path: ex07int.integration.com/Global/TomsData/Corpus/rtf_tl2/
+        title: Teil-hard de Char-din             (ta-yar d shar-daN')    Pierre
+        author: Rod Pickett
+        no productions
+        rank: 129 - type: RTF - size: 19k - mtime: Thu Mar 10 13:23:04 2005
+
+  query id 172
+  elapsed time 0.052176 seconds

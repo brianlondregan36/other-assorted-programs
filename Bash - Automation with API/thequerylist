@@ -1,0 +1,36 @@
+forensic
+information
+(suspected OR distributing OR sensitive)
+image
+(science OR relates)
+increasing
+(storage capacities)
+(seized OR computer)
+custody
+recorded
+(John Doe)
+ctime:04/12/2001..01/01/2011
+ctime:01/10/2009..01/01/2011
+mtime:01/01/2010..12/01/2011
+mtime:01/02/2010..12/01/2011
+ft:txt
+ft:doc
+(hello OR world) and ft:txt
+(cat OR dog) and ft:doc
+ft:ppt,doc,xls
+ft:doc AND ctime:04/12/2001..01/01/2011
+ft:txt AND mtime:01/01/2010..12/01/2011
+ft:msg AND (hello OR world)
+probability
+(soft OR copy)
+(still exists)
+computer AND ft:msg
+(hello world)
+NOT (hello OR computer)
+ft:msg
+NOT (computer OR performance) AND ft:doc
+tape
+(video tape)
+ft:xls AND (money)
+mtime:01/02/2000..12/01/2010
+world
